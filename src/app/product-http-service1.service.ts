@@ -1,6 +1,6 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs'; 
+import { Observable, catchError, retry, throwError } from 'rxjs'; 
 import { Iproduct } from './product';
 
 @Injectable({
@@ -14,5 +14,14 @@ export class ProductHttpService1Service {
   
     getProducts():Observable<Iproduct[]>{
       return this.http.get<Iproduct[]>(this._url)
+    }
+
+    getProductsHandleError()
+    {
+    return this.http.get<Iproduct[]>(this._url)
+    .pipe(retry(3), catchError(this.handleError))
+    }
+    handleError(error:HttpErrorResponse){
+    return throwError(()=>new Error(error.message))
     }
 }

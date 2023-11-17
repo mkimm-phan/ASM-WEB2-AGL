@@ -11,11 +11,11 @@ export class ListProduct2Component {
   "Price":11},
 
   {"ProductID":"p2",
-  "ProductName":"Coca",
+  "ProductName":"Pepsi",
   "Price":11},
 
   {"ProductID":"p3",
-  "ProductName":"Coca",
+  "ProductName":"String",
   "Price":11}
 ]
 }

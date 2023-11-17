@@ -23,11 +23,11 @@ export class Ex89ArrProductCatalogComponent {
       "Cateid":"cate2","CateName":"Bia",
       "Products":[
         {"ProductId":"p4","ProductName":"Heleiken","Price":500,
-        "Image":"assets/images/heiniken.jpg"},
+        "Image":"assets/images/heineken.jpg"},
         {"ProductId":"p5","ProductName":"333","Price":400,
         "Image":"assets/images/333.jpg"},
         {"ProductId":"p6","ProductName":"Sai Gon","Price":600,
-        "Image":"assets/images/saigon.png"},
+        "Image":"assets/images/saigon.jpg"},
         ]
       },
     ]

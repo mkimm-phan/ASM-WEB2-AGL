@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, RoutingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { TestComponent } from './test/test.component';
@@ -35,6 +35,15 @@ import { Exercise89Component } from './exercise89/exercise89.component';
 import { Exercise90HttpserviceComponent } from './exercise90-httpservice/exercise90-httpservice.component';
 import { ProductHttpService } from './product-http.service';
 import { ServiceProductHttpComponent } from './service-product-http/service-product-http.component';
+import { AboutComponent } from './about/about.component';
+import { PagenotFoundComponent } from './pagenot-found/pagenot-found.component';
+import { TopmenuComponent } from './topmenu/topmenu.component';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
+import { LoginComponent } from './login/login.component';
+import { ServiceProductHttpHandleErrorComponent } from './service-product-http-handle-error/service-product-http-handle-error.component';
+import { Exercise92Component } from './exercise92/exercise92.component';
+import { Exercise93Component } from './exercise93/exercise93.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +75,17 @@ import { ServiceProductHttpComponent } from './service-product-http/service-prod
     ServiceProductImageEventComponent,
     Exercise89Component,
     Exercise90HttpserviceComponent,
-    ServiceProductHttpComponent
+    ServiceProductHttpComponent,
+    RoutingComponent,
+    AboutComponent,
+    PagenotFoundComponent,
+    TopmenuComponent,
+    LeftMenuComponent,
+    LoginComponent,
+    ServiceProductHttpHandleErrorComponent,
+    Exercise92Component,
+    Exercise93Component,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

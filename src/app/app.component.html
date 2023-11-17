@@ -2,45 +2,56 @@
 <app-list-product6></app-list-product6> -->
 <!-- <app-list-product7></app-list-product7> -->
 <!-- <app-list-product3></app-list-product3>
-
 <app-list-product4></app-list-product4> -->
 <!-- <app-list-product>`</app-list-product>
-
 <p> List Product 2</p>
 <app-list-product2></app-list-product2> -->
-
 <!-- My Value trong ngoặc vuông = @Input, MyValue ở sau là nằm trong app component-->
 <!-- <p> App</p>
 <app-footer></app-footer>
 <app-blog></app-blog>
 <app-four></app-four> -->
 <!-- <app-ptbac1></app-ptbac1> -->
-
 <!-- 78 -->
 <!-- <app-cpn78></app-cpn78> -->
-
 <!-- 79
 <app-binding-property-component></app-binding-property-component> -->
-
 <!-- 80
 <app-binding-class-component></app-binding-class-component> -->
-
 <!-- 81
 <app-binding-style-component></app-binding-style-component> -->
-
-
 <!-- 82
 <app-binding-event-component></app-binding-event-component>  -->
-
 <!-- 83 done -->
 <!-- <app-binding-two-way-component></app-binding-two-way-component>  -->
-
 <!-- <app-slide-show></app-slide-show> -->
-
 <!-- <app-ptbac2></app-ptbac2> -->
-
-<app-list-product7></app-list-product7> 
-
+<!-- <app-list-product7></app-list-product7> 
 <app-ex89-arr-product-catalog></app-ex89-arr-product-catalog>
+<app-service-product-http></app-service-product-http> -->
 
-<app-service-product-http></app-service-product-http>
+<!-- <p>
+    <a routerLink="/ptbac1"> Phương trình bậc một</a>
+    <a routerLink="/Slide"> slide-show</a>
+</p>
+<router-outlet></router-outlet> -->
+
+<table style="width: 100%;" border="1">
+    <tr>
+        <td colspan="3"> 
+            <app-topmenu></app-topmenu>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 100;"> 
+            <app-left-menu></app-left-menu>
+        </td>
+        <td> 
+            <router-outlet></router-outlet>
+        </td>
+        <td style="width: 100;"> Right Menu</td>
+    </tr>
+    <tr>
+        <td colspan="3">Footer</td>
+    </tr>
+</table>
