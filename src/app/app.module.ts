@@ -44,6 +44,11 @@ import { ServiceProductHttpHandleErrorComponent } from './service-product-http-h
 import { Exercise92Component } from './exercise92/exercise92.component';
 import { Exercise93Component } from './exercise93/exercise93.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CustomerComponent } from './customer/customer.component';
+import { DongAbankComponent } from './dong-abank/dong-abank.component';
+import { FakeProductComponent } from './fake-product/fake-product.component';
+import { BitcoinPriceIndexComponent } from './bitcoin-price-index/bitcoin-price-index.component';
+import { KeyValuePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -85,13 +90,19 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     ServiceProductHttpHandleErrorComponent,
     Exercise92Component,
     Exercise93Component,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CustomerComponent,
+    DongAbankComponent,
+    FakeProductComponent,
+    BitcoinPriceIndexComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    KeyValuePipe
   ],
   providers: [ProductHttpService],
   bootstrap: [AppComponent]

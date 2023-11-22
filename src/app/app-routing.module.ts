@@ -12,6 +12,11 @@ import { Exercise92Component } from './exercise92/exercise92.component';
 import { Exercise93Component } from './exercise93/exercise93.component';
 import { ListProductComponent } from './list-product/list-product.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CustomerComponent } from './customer/customer.component';
+import { DongAbankComponent } from './dong-abank/dong-abank.component';
+import { FakeProductComponent } from './fake-product/fake-product.component';
+import { BitcoinPriceIndexComponent } from './bitcoin-price-index/bitcoin-price-index.component';
+
 
 const routes: Routes = [
   // Trang chủ
@@ -27,7 +32,10 @@ const routes: Routes = [
   {path: "Ex91", component: ServiceProductHttpHandleErrorComponent},
   {path: "Ex92", component: Exercise92Component},
   {path: "Ex93", component: Exercise93Component},
- 
+  {path: "customer", component: CustomerComponent},
+  {path: "dongabank", component: DongAbankComponent},
+  {path: "FakeProduct", component: FakeProductComponent},
+  {path: "Bitcoin", component: BitcoinPriceIndexComponent},
 
   // Page not found
   {path: "**", component: PagenotFoundComponent}

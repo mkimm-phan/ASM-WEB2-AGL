@@ -1,0 +1,25 @@
+<h3>Bitcoin Price Index</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time Updated</th>
+      <th colspan="2">Currency</th> 
+      <th colspan="3">Bpi</th>
+    </tr>
+    <tr>
+      <td>updated</td>
+      <td>code</td>
+      <td>rate_float</td>
+      <td>USD</td>
+      <td>GBP</td>
+      <td>EUR</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let bit of data">
+      <td>{{bit.Price}}</td>
+    </tr>
+  </tbody>
+</table>
