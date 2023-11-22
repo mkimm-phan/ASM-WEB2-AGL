@@ -33,7 +33,7 @@ import { Ex89ArrProductCatalogComponent } from './ex89-arr-product-catalog/ex89-
 import { ServiceProductImageEventComponent } from './service-product-image-event/service-product-image-event.component';
 import { Exercise89Component } from './exercise89/exercise89.component';
 import { Exercise90HttpserviceComponent } from './exercise90-httpservice/exercise90-httpservice.component';
-import { ProductHttpService } from './product-http.service';
+import { ProductHttpService } from './Server/product-http.service';
 import { ServiceProductHttpComponent } from './service-product-http/service-product-http.component';
 import { AboutComponent } from './about/about.component';
 import { PagenotFoundComponent } from './pagenot-found/pagenot-found.component';

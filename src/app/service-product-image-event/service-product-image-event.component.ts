@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { ProductService } from '../product.service';
+import { ProductService } from '../Server/product.service';
 
 @Component({
   selector: 'app-service-product-image-event',

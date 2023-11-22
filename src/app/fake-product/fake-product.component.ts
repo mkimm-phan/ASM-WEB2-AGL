@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FakeproductService } from '../fakeproduct.service';
+import { FakeproductService } from '../Server/fakeproduct.service';
 
 @Component({
   selector: 'app-fake-product',

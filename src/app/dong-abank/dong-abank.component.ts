@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DongABankService } from '../dong-abank.service';
+import { DongABankService } from '../Server/dong-abank.service';
 
 @Component({
   selector: 'app-dong-abank',

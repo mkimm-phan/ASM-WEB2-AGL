@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductHttpService1Service } from '../product-http-service1.service';
+import { ProductHttpService1Service } from '../Server/product-http-service1.service';
 
 @Component({
   selector: 'app-service-product-http-handle-error',

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ProductService } from '../product.service';
-import { ProducthttpService } from '../producthttp.service';
+import { ProductService } from '../Server/product.service';
+import { ProducthttpService } from '../Server/producthttp.service';
 
 
 @Component({

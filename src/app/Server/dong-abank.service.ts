@@ -1,8 +1,8 @@
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map, retry, catchError, throwError, Observable } from 'rxjs';
-import { IDongABankData } from './DongABankData';
-import { IDongABankItem } from './DongABankItem';
+import { IDongABankData } from '../Interface/DongABankData';
+import { IDongABankItem } from '../Interface/DongABankItem';
 import { JsonPipe } from '@angular/common';
 
 @Injectable({

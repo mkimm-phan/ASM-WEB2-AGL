@@ -13,5 +13,13 @@
         "secure": true,
         "changeOrigin":true,
         "logLevel":"debug"
+    },
+
+    {
+        "context": ["/bitcoin"],
+        "target": "https://coindesk.com",
+        "secure": true,
+        "changeOrigin":true,
+        "logLevel":"debug"
     }
 ]

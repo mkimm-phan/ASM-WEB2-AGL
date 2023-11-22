@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductHttpService } from '../product-http.service';
+import { ProductHttpService } from '../Server/product-http.service';
 
 @Component({
   selector: 'app-exercise90-httpservice',
