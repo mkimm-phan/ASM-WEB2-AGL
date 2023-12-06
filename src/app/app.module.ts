@@ -49,6 +49,19 @@ import { DongAbankComponent } from './dong-abank/dong-abank.component';
 import { FakeProductComponent } from './fake-product/fake-product.component';
 import { BitcoinPriceIndexComponent } from './bitcoin-price-index/bitcoin-price-index.component';
 import { KeyValuePipe } from '@angular/common';
+import { BooksComponent } from './books/books.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
+import { BookNewComponent } from './book-new/book-new.component';
+import { BookUpdateComponent } from './book-update/book-update.component';
+import { BookDeleteComponent } from './book-delete/book-delete.component';
+import { RestfulAPISelfStudyComponent } from './restful-api-self-study/restful-api-self-study.component';
+// import { BookDetailsComponent } from './book-details/book-details.component';
+import { BookManagementComponent } from './Restful API/book-management/book-management.component';
+import { BookEditComponent } from './Restful API/book-edit/book-edit.component';
+import { CurriculumsComponent } from './curriculums/curriculums.component';
+import { CurriculumUpdateComponent } from './curriculum-update/curriculum-update.component';
+import { CurriculumNewComponent } from './curriculum-new/curriculum-new.component';
+import { CurriculumDetailComponent } from './curriculum-detail/curriculum-detail.component';
 
 @NgModule({
   declarations: [
@@ -95,14 +108,28 @@ import { KeyValuePipe } from '@angular/common';
     DongAbankComponent,
     FakeProductComponent,
     BitcoinPriceIndexComponent,
-    
+    BooksComponent,
+    BookDetailComponent,
+    BookNewComponent,
+    BookUpdateComponent,
+    BookDeleteComponent,
+    RestfulAPISelfStudyComponent,
+    // BookDetailsComponent,
+    BookManagementComponent,
+    BookEditComponent,
+    BookNewComponent,
+    CurriculumsComponent,
+    CurriculumUpdateComponent,
+    CurriculumNewComponent,
+    CurriculumDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    KeyValuePipe
+    KeyValuePipe,
+    
   ],
   providers: [ProductHttpService],
   bootstrap: [AppComponent]
